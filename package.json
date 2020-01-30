@@ -1,2 +1,12 @@
-"postinstall": "npm run build",
-"start": "node server.js"
+{
+    "name": "techno-origamid",
+    "version": "1.0.0",
+    "description": "A Vue.js project",
+    "author": "",
+    "private": true,
+    "scripts": {
+        "dev": "node build/dev-server.js",
+        "build": "node build/build.js",
+        "start": "node server.js"
+    }
+}
