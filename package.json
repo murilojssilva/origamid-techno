@@ -9,6 +9,8 @@
         "build": "node build/build.js",
         "start": "node server.js"
     },
+    "postinstall": "yarn add build",
+    "start": "node server.js",
     "dependencies": {
         "build": "^0.1.4"
     }
