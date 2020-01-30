@@ -9,6 +9,10 @@
         "build": "node build/build.js",
         "start": "node server.js"
     },
+    "engines": {
+        "node": "12.13.0",
+        "npm": "6.x"
+    },
     "postinstall": "yarn add build",
     "start": "node server.js",
     "dependencies": {
